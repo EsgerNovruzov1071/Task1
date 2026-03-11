@@ -128,7 +128,7 @@
 //int c = 3;
 
 //double result = CalculateAverage(a, b, c);
-//Console.WriteLine(result);
+//Console.WriteLine(result); 
 
 
 

@@ -1,0 +1,178 @@
+﻿//Task 1
+//string cumle = Console.ReadLine();
+//string soz = "";
+//for (int i = 0; i < cumle.Length; i++)
+//{
+//    if (cumle[i] != ' ')
+//    {
+//        soz += cumle[i];
+//    }
+//    else
+//    {
+//        Console.WriteLine(soz);
+//        soz = " ";
+//    }
+//}
+//Console.WriteLine(soz);
+
+
+
+
+//Task 5
+//string cumle = Console.ReadLine();
+//string soz = "";
+//string max = "";
+//for (int i = 0; i < cumle.Length; i++)
+//{
+//    if (cumle[i] != ' ')
+//    {
+//        soz += cumle[i];
+//    }
+//    else
+//    {
+//        if (soz.Length > max.Length)
+//        {
+//            max = soz;
+//        }
+//        soz = "";
+//    }
+//}
+
+//if (soz.Length > max.Length)
+//{
+//    max = soz;
+//}
+
+//Console.WriteLine(max);
+
+
+
+
+//Task 2
+//string cumle = Console.ReadLine();
+//int say = 1;
+
+//for (int i = 0; i < cumle.Length; i++)
+//{
+//    if (cumle[i] == ' ')
+//    {
+//        say++;
+//    }
+//}
+
+//Console.WriteLine(say);
+
+
+
+
+
+
+//Task 3
+//string soz = Console.ReadLine();
+
+//string ters = new string(soz.Reverse().ToArray());
+
+//if (soz == ters)
+//{
+//    Console.WriteLine("Polindromdur");
+//}
+//else
+//{
+//    Console.WriteLine("Polindrom deyil");
+//}
+
+
+//Task 4
+//string soz = Console.ReadLine();
+//Console.WriteLine(soz[0]);
+
+
+
+
+//double a = Convert.ToDouble(Console.ReadLine());
+//double b = Convert.ToDouble(Console.ReadLine());
+//char op = Convert.ToChar(Console.ReadLine());
+
+//double netice = 0;
+
+//if (op == '+')
+//{
+//    netice = a + b;
+//}
+//else if (op == '-')
+//{
+//    netice = a - b;
+//}
+//else if (op == '*')
+//{
+//    netice = a * b;
+//}
+//else if (op == '/')
+//{
+//    netice = a / b;
+//}
+
+//Console.WriteLine(netice);
+
+
+
+//int eded = Convert.ToInt32(Console.ReadLine());
+//int say = 0;
+
+//if (eded < 50)
+//{
+//    for (int i = 1; i <= eded; i++)
+//    {
+//        if (i % 3 == 0)
+//        {
+//            say++;
+//        }
+//    }
+//}
+//else if (eded >= 50 && eded <= 100)
+//{
+//    for (int i = 1; i <= eded; i++)
+//    {
+//        if (i % 5 == 0)
+//        {
+//            say++;
+//        }
+//    }
+//}
+//else
+//{
+//    for (int i = 1; i <= eded; i++)
+//    {
+//        if (i % 8 == 0)
+//        {
+//            say++;
+//        }
+//    }
+//}
+
+//Console.WriteLine(say);
+
+
+//string[] fruits = { "apple", "banana", "mango", "orange" };
+//if (fruits.Contains("apple"))
+//{
+//    Console.WriteLine("Var");
+//}
+//else
+//{
+//    Console.WriteLine("Yoxdur");
+//}
+
+
+
+
+//string cumle = Console.ReadLine();
+//string[] sozler = cumle.Split();
+//string soz = Console.ReadLine();
+//int say = 0;
+//for  (int i = 0; i < sozler.Length; i++)
+//{
+//    if (sozler[i] == soz)
+//        say++;
+//}
+//Console.WriteLine(say);
