@@ -1,0 +1,20 @@
+﻿static double Calculator(double boyukEded, double kicikEded, char emel)
+{
+    if (emel == '+')
+        return boyukEded + kicikEded;
+    else if (emel == '-')
+        return boyukEded - kicikEded;
+    else if (emel == '*')
+        return boyukEded * kicikEded;
+    else
+    {
+        if (boyukEded == 0 || kicikEded == 0)
+                return 'F';
+        else
+            return boyukEded / kicikEded;
+    }
+}
+double boyukEded = Convert.ToDouble(Console.ReadLine());
+double kicikEded = Convert.ToDouble(Console.ReadLine());
+char emel = Convert.ToChar(Console.ReadLine());
+Console.WriteLine(Calculator(boyukEded, kicikEded, emel));
